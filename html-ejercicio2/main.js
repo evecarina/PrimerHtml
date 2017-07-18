@@ -245,11 +245,7 @@ var a = "<div>" +
     "<h2>" +  dato_1.address.street +"</h2>" +
    "</div>";
   html += a;
-
-
-
  }
-
 
 document.write( html ); 
 document.write(  html );
