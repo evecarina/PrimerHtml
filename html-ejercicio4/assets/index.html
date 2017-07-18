@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body Align="center" style="background-color:#F3F781;">
+<h1 Align="center">Mar de Copas</h1>
+	<script src="javascript.js"></script>
+	<img src="mardecopas.jpg"  WIDTH=658 HEIGHT=500 alt=""> <br/>
+
+	<audio id="demo" src="mardecopas.mp3" controls ="controls" type="audio/mp3" preload="preload" ></audio>
+	<div  Align="center">
+  		<button onclick="document.getElementById('demo').play()">Reproducir el Audio</button>
+  		<button onclick="document.getElementById('demo').pause()">Pausar el Audio</button>
+  		<button onclick="document.getElementById('demo').volume+=0.1">Aumentar el Volumen</button>
+ 		<button onclick="document.getElementById('demo').volume-=0.1">Disminuir el Volumen</button>
+</div>
+</body>
+</html>
